@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { MenuSection } from "@/components/Menusection";
 import { Navbar } from "@/components/Navbar";
 import { restaurant } from "@/data/restaurant";
-import { WhatsAppReservationForm } from "@/components/WhatsAppReservationForm";
+import { ReservationForm } from "@/components/ReservationForm";
 
 const benefits = [
   "Online reservations",
@@ -100,7 +100,7 @@ export default function Home() {
           </p>
         </div>
 
-        <WhatsAppReservationForm />
+        <ReservationForm />
       </section>
 
       <section className="bg-white px-8 py-24 md:px-14">
